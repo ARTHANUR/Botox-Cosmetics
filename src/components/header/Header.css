@@ -43,3 +43,48 @@
     height: 4rem;
     margin-right: 0.5rem;
 }
+
+/* //////////////////////////////////////////////////////////////// */
+
+.main-center{
+    
+}
+.main-center>div{
+    background-color: rgba(60, 137, 237, 0.855);
+    height: 560px;
+    width: 560px;
+    border-radius: 50%;
+}
+.main-center>div>img{
+    object-fit: contain;
+    height: 560px;
+    width: 560px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-left{
+    width: 20%;
+    padding-left: 2rem;
+    object-fit: contain;
+}
+.main-left>h3{
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+.main-left>div>h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.main-right{
+    padding-right: 2rem;
+}
+.main-right div h1{
+    font-size: 2.5rem;
+}
