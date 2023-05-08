@@ -1,0 +1,38 @@
+
+.swiper{
+    width: 70%;
+    height: 15rem;
+}
+
+.slide{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    overflow: hidden;
+
+}
+
+.right>img{
+    position: absolute;
+    top: 2rem;
+    right: 13rem;
+    width: 20rem;
+    height: 20rem;
+    object-fit: contain;
+    transform: rotate(30deg);
+}
+
+.left{
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.left>span>h2{
+    font-size: 2rem;
+}
+
