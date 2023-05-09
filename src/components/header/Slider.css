@@ -32,7 +32,19 @@
     padding-bottom: 1rem;
 }
 
-.left>span>h2{
-    font-size: 2rem;
+.left>span{
+    letter-spacing: 1px;
 }
-
+.left>span>h2{
+    font-size: 1.5rem;
+    transform: scale(2);
+    opacity: 0.6;
+}
+.left>button{
+    width:6rem;
+    height: 2rem;
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    
+}
