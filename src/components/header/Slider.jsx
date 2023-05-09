@@ -30,6 +30,12 @@ const Slider = () => {
             price: "25",
             img: "./images/img3.png",
         },
+        {
+            name: "Lips",
+            detail: "Lip Care",
+            price: "69",
+            img: "./images/Lipstick.png",
+        },
     ];
 
     return (
