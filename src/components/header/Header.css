@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 4rem;
+    height: 4rem;
 }
 
 .nav>ul {
@@ -31,17 +32,18 @@
     border-bottom: 1px solid black;
 }
 
-.nav>.left {
+.nav>.nav-left {
     display: flex;
     align-items: center;
     font-family: 'Castoro Titling', cursive;
 
 }
 
-.nav>.left>img {
+.nav>.nav-left>img {
     width: 4rem;
     height: 4rem;
     margin-right: 0.5rem;
+    /* transform: translate(-7rem , 5rem); */
 }
 
 /* //////////////////////////////////////////////////////////////// */

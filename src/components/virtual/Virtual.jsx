@@ -7,13 +7,13 @@ const Virtual = () => {
     <>
 
     <div className="virtual">
-        <div className="left">
+        <div className="virtual-left">
             <h1>VIRTUAL TRY-ON</h1>
             <p>SAY YES TO YOUR ULTIMATE MAKEOVER</p>
             <h3>Try Now!</h3>
             <img src="./images/shade.png" alt="" />
         </div>
-      <div className="right">
+      <div className="virtual-right">
         <ReactCompareImage  leftImage="./images/before.png" rightImage = "./images/after.png"  />
       </div>
     </div>

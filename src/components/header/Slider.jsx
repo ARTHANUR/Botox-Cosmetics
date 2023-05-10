@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "./Slider.css";
 
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -56,17 +55,14 @@ const Slider = () => {
                         return (
                             <SwiperSlide>
                                 <div className="slide">
-                                    <div className="left">
-                                        <span>
-                                            <h2> {slide.name} </h2>
-                                            <p>{slide.detail}</p>
-                                        </span>
+                                    <div className="slider-left">
+                                        <img src={slide.img} alt="" />
+                                    </div>
+                                    <div className="slider-right">
+                                        <h2> {slide.name} </h2>
+                                        <p>{slide.detail}</p>
                                         <h1>$ {slide.price} </h1>
                                         <button>Shop Now</button>
-                                    </div>
-
-                                    <div className="right">
-                                        <img src={slide.img} alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>

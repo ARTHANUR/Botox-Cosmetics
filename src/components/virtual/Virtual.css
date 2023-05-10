@@ -3,22 +3,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
-.right{
+.virtual-right{
     width: 50rem;
 }
 
-.left{
+.virtual-left{
     width: 30%;
 }
-.left>p{
+.virtual-left>p{
     font-size: 1.5rem;
     opacity: 0.8;
     letter-spacing: 2px;
 }
-.left>img{
+.virtual-left>img{
     width: 10rem;
     transform: translate(-2rem , -1rem);
 }

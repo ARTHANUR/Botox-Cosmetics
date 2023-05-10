@@ -104,14 +104,30 @@ const Product = () => {
     ];
     return (
         <>
-            <div className="container">
-                {ProductsData.map((product) => {
-                    return (
-                        <>
-                            <div className="product-container"></div>
-                        </>
-                    );
-                })}
+            <div className="product-head">
+                <img src="https://res.cloudinary.com/dboa7dqkl/image/upload/v1683695822/cosmetics/plane_twwiva.png" alt="" />
+                <h1>OUR PRODUCTS</h1>
+            </div>
+            <div className="product-section">
+                <div className="item-left">
+                    <ul>
+                        <li> All </li>
+                        <li> Skin Care</li>
+                        <li> Conditioner</li>
+                        <li> Foundation</li>
+                    </ul>
+                </div>
+                <span />
+                <div className="item-container">
+                    {ProductsData.map((product) => {
+                        return (
+                            <>
+                                <div className="product-container"></div>
+                            </>
+                        );
+                    })}
+                </div>
+                <span />
             </div>
         </>
     );
