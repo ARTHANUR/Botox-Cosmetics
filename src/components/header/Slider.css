@@ -38,8 +38,9 @@
 
 .left>span>h2 {
     font-size: 1.5rem;
-    transform: scale(2);
     opacity: 0.6;
+    transform: scale(2);
+    width: 30rem;
 }
 
 .left>h1 {
@@ -53,4 +54,7 @@
     outline: none;
     background-color: transparent;
     cursor: pointer;
+}
+.s-container{
+    margin-top: 3rem;
 }
