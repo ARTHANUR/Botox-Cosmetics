@@ -108,7 +108,7 @@ const Product = () => {
                 {ProductsData.map((product) => {
                     return (
                         <>
-                                <div className="product-container"></div>
+                            <div className="product-container"></div>
                         </>
                     );
                 })}
