@@ -65,6 +65,9 @@ Contributions are welcome! If you would like to contribute to Botox Cosmetics, p
 ## Owner
 This Project was made by [Shashank](https://github.com/ARTHANUR).
 
+# Video Walkthrough :
+See the viddeo walkthrough of the site [Here](https://www.linkedin.com/posts/shashank-arthanur_cosmeticsecommerce-botoxcosmetics-reactjs-activity-7062835728661053440-3Rby?utm_source=share&utm_medium=member_desktop)
+
 # Desktop View :
 
 ![image](https://res.cloudinary.com/dboa7dqkl/image/upload/v1683908116/cosmetics/Screenshot_2023-05-12_214239_dgh4sn.png  )
