@@ -12,3 +12,11 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body::-webkit-scrollbar{
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
