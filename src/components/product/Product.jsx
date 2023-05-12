@@ -47,56 +47,56 @@ const Product = () => {
         },
         {
             name: "CONDITIONER",
-            details: "Best Conditioner",
+            detail: "Best Conditioner",
             price: "30",
             img: "https://res.cloudinary.com/dboa7dqkl/image/upload/v1683695819/cosmetics/img7_gcnr9h.png",
             type: "conditioner",
         },
         {
             name: "CONDITIONER",
-            details: "Best Conditioner",
+            detail: "Best Conditioner",
             price: "30",
             img: "https://res.cloudinary.com/dboa7dqkl/image/upload/v1683695820/cosmetics/img8_wkigg1.png",
             type: "conditioner",
         },
         {
             name: "CONDITIONER",
-            details: "Best Conditioner",
+            detail: "Best Conditioner",
             price: "30",
             img: "https://res.cloudinary.com/dboa7dqkl/image/upload/v1683695820/cosmetics/img9_bnva98.png",
             type: "conditioner",
         },
         {
             name: "CONDITIONER",
-            details: "Best Conditioner",
+            detail: "Best Conditioner",
             price: "30",
             img: "https://res.cloudinary.com/dboa7dqkl/image/upload/v1683695826/cosmetics/img10_bhd3wx.png",
             type: "conditioner",
         },
         {
             name: "FOUNDATION",
-            details: "Nourish your skin",
+            detail: "Nourish your skin",
             price: "12",
             img: "https://res.cloudinary.com/dboa7dqkl/image/upload/v1683695820/cosmetics/img11_muecax.png",
             type: "foundation",
         },
         {
             name: "FOUNDATION",
-            details: "Nourish your skin",
+            detail: "Nourish your skin",
             price: "12",
             img: "https://res.cloudinary.com/dboa7dqkl/image/upload/v1683695822/cosmetics/img12_pquptp.png",
             type: "foundation",
         },
         {
             name: "FOUNDATION",
-            details: "Nourish your skin",
+            detail: "Nourish your skin",
             price: "12",
             img: "https://res.cloudinary.com/dboa7dqkl/image/upload/v1683695822/cosmetics/img13_amvme1.png",
             type: "foundation",
         },
         {
             name: "FOUNDATION",
-            details: "Nourish your skin",
+            detail: "Nourish your skin",
             price: "12",
             img: "https://res.cloudinary.com/dboa7dqkl/image/upload/v1683695825/cosmetics/img14_nnbxy0.png",
             type: "foundation",
@@ -122,7 +122,16 @@ const Product = () => {
                     {ProductsData.map((product) => {
                         return (
                             <>
-                                <div className="product-container"></div>
+                                <div className="product-container">
+                                    <div className="item-info">
+                                        <span>{product.name}</span>
+                                        <span>{product.detail}</span>
+                                        <span>$ {product.price}</span>
+                                    </div>
+                                    <div className="item-img">
+                                        <img src={product.img} alt="" />
+                                    </div>
+                                </div>
                             </>
                         );
                     })}
