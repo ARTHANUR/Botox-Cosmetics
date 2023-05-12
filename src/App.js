@@ -5,6 +5,7 @@ import Virtual from "./components/virtual/Virtual.jsx"
 import Product from "./components/product/Product";
 
 import "./App.css"
+import Testimonial from "./components/testimonial/Testimonial";
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Slider />
       <Virtual />
       <Product />
-
+      <Testimonial />
 
       <br /><br /><br /><br /><br />
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

@@ -79,6 +79,7 @@ span {
 .product-container{
     display: flex;
     overflow: hidden;
+    box-shadow: 14px 18px 15px 10px rgba(0, 0, 0, 0.25);
 }
 .product-container>.item-img>img{
     width: 8rem;
