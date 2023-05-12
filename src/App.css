@@ -20,3 +20,9 @@ body::-webkit-scrollbar-thumb{
     background-color: orange;
     border-radius: 10px;
 }
+.footer-line{
+    width: 90vw;
+    border: 2px solid orange;
+    margin-left: 5vw;
+    margin-bottom: 4rem;
+}

@@ -1,0 +1,44 @@
+
+
+.col1>img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+}
+.col1>span{
+    font-size: 2rem;
+    font-weight: 700;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-head{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgba(60, 137, 237, 0.855) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.f-list{
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.copyright>p{
+    font-size: 0.7rem;
+    text-align: center;
+    opacity: 0.8;
+    margin-left: 6rem;
+}
+.copyright{
+    margin-top: 3rem;
+}
