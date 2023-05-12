@@ -76,4 +76,4 @@ This Project was made by [Shashank](https://github.com/ARTHANUR).
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact us at `sarthanur@gmail.com`. We would love to hear from you!
+If you have any questions or suggestions, feel free to contact us at `sarthanur@gmail.com`. I would love to hear from you!
