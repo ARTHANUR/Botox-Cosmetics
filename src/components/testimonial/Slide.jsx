@@ -7,7 +7,7 @@ const Slide = ({ data }) => {
             {data.map((item) => {
                 return (
                     <>
-                        <div className="slide">
+                        <div className="testimonial-slide">
                             <img src={item.image} alt="profile" className="profile" />
                             <span>
                                 <h1>{item.name}</h1>
