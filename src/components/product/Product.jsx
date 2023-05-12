@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import {useAutoAnimate} from "@formkit/auto-animate/react";
 import "./Product.css";
+import autoAnimate from "@formkit/auto-animate";
 
 const ProductsData = [
     {
@@ -103,6 +105,7 @@ const ProductsData = [
 ];
 
 const Product = () => {
+    const [parent] = useAutoAnimate()
     const [menuProduct, setMenuProduct] = useState(ProductsData);
 
     const filter = (type) => {
@@ -125,7 +128,7 @@ const Product = () => {
                     </ul>
                 </div>
                 <span />
-                <div className="item-container">
+                <div className="item-container" ref={parent}>
                     {menuProduct.map((product) => {
                         return (
                             <>
