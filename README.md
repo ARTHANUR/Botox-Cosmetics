@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Botox Cosmetics - Ecommerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Botox Cosmetics is an ecommerce website dedicated to selling a wide range of cosmetic products. This website is built entirely using React, utilizing popular React libraries such as Framer Motion for animation, CompareImage for showcasing before and after makeover images, and Swiper for creating interactive sliders.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Browse and purchase a variety of cosmetic products
+- User-friendly interface with smooth animations powered by Framer Motion
+- Showcase before and after makeover images using CompareImage library
+- Interactive and visually appealing sliders using Swiper library
+- Easy navigation with a well-structured layout
+- Responsive design for seamless browsing on desktop and mobile devices
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can find a live demo of Botox Cosmetics [here](https://botox-cosmetics.onrender.com).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run Botox Cosmetics locally on your machine, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+```
+git clone https://github.com/your-username/botox-cosmetics.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+cd botox-cosmetics
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
 
-### `npm run eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Open your browser and visit `http://localhost:3000` to see the website in action.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Libraries Used
 
-## Learn More
+- [React](https://reactjs.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [CompareImage](https://github.com/junkboy0315/compare-image)
+- [Swiper](https://swiperjs.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! If you would like to contribute to Botox Cosmetics, please follow these steps:
 
-### Code Splitting
+1. Fork the repository.
+2. Create a new branch: `git checkout -b my-new-feature`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push the branch to your fork: `git push origin my-new-feature`.
+5. Submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Owner
+This Project was made by [Shashank](https://github.com/ARTHANUR).
 
-### Analyzing the Bundle Size
+# Desktop View :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://res.cloudinary.com/dboa7dqkl/image/upload/v1683908116/cosmetics/Screenshot_2023-05-12_214239_dgh4sn.png  )
+![image](https://res.cloudinary.com/dboa7dqkl/image/upload/v1683908109/cosmetics/Screenshot_2023-05-12_214320_rcszpj.png  )
+![image]( https://res.cloudinary.com/dboa7dqkl/image/upload/v1683908119/cosmetics/Screenshot_2023-05-12_214349_wn2lhp.png )
+![image](  https://res.cloudinary.com/dboa7dqkl/image/upload/v1683908112/cosmetics/Screenshot_2023-05-12_214411_xeytxk.png)
+![image]( https://res.cloudinary.com/dboa7dqkl/image/upload/v1683908117/cosmetics/Screenshot_2023-05-12_214437_ticsxg.png )
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or suggestions, feel free to contact us at `sarthanur@gmail.com`. We would love to hear from you!
