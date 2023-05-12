@@ -48,6 +48,7 @@ const Testimonial = () => {
                 src="https://res.cloudinary.com/dboa7dqkl/image/upload/v1683695827/cosmetics/testimonialHero_gaqdjb.png"
                 alt="profile"
             />
+            <h1 className="testimonial-header">REVIEWS</h1>
             <div className="testimonial-slider">
                 <Slide data={TestimonialsData} />
             </div>
